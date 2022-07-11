@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./liveInterpreter.css">
+    <title>Live Server</title>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">Live Interpreter for HTML</div>
+        <div class="mainframe">
+            <div class="editor">
+                <div class="smallnav"> <\> Code Editor</div>
+                <textarea type="code" name="editor" id="editorBox" oninput="onCodeChange()"></textarea>
+            </div>
+            <div class="preview">
+                <div class="smallnav">⦿ Live Preview</div>
+                <div id="previewBox"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./liveInterpreter.js"></script>
+</body>
+</html>
